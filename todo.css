@@ -1,0 +1,48 @@
+body{
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    height: 100vh;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container{
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 80vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    width: 400px;
+}
+ #todoButton{
+    width: fit-content;
+    height: 30px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+ #todoButton:hover{
+    background-color: green;
+ }
+ #todoInput{
+    margin: 10px auto auto 20px;
+    border-radius: 5px;
+    height: 2em;
+    width: 18rem;
+ }
+ .delete{
+    background-color: red;
+    margin-left: 30px;
+    border: none;
+    font-weight: bold;
+ }
+ 
