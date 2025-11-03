@@ -1,14 +1,23 @@
 body{
     font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
-    background: #f0f4f8;
+    background: rgba(31, 27, 27, 0.4);
     height: 100vh;
     font-size: 1rem;
     font-weight: bold;
 }
+li{
+   font-size: 20px;
+   list-style-type: disc;  
+   font-weight: 100;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 30px;
+}
 .container{
     background: white;
-    padding: 2rem;
-    border-radius: 8px;
+    padding: 0;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     height: 80vh;
@@ -18,7 +27,10 @@ header{
     color: white;
     text-align: center;
     font-size: 2rem;
-    width: 400px;
+   margin-top: 0;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   
 }
  #todoButton{
     width: fit-content;
@@ -29,6 +41,7 @@ header{
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-left: -75px;
  }
  #todoButton:hover{
     background-color: green;
@@ -37,12 +50,23 @@ header{
     margin: 10px auto auto 20px;
     border-radius: 5px;
     height: 2em;
-    width: 18rem;
+    width: 90% ;
  }
  .delete{
-    background-color: red;
+   font-size: large;
+    color: red;
     margin-left: 30px;
     border: none;
+    background: none;
     font-weight: bold;
  }
- 
+ .delete:hover{
+   background-color: red;
+   color: aliceblue;
+   border-radius: 50%;
+ }
+ a{
+   text-align: center;
+   align-items: center;
+   margin: auto auto 0px center;
+ }
